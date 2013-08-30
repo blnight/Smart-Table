@@ -603,6 +603,10 @@
 
 })(angular);
 
+
+
+angular.module('smartTable.templates', ['partials/defaultCell.html', 'partials/defaultHeader.html', 'partials/editableCell.html', 'partials/globalSearchCell.html', 'partials/pagination.html', 'partials/selectAllCheckbox.html', 'partials/selectionCheckbox.html', 'partials/smartTable.html']);
+
 (function (angular) {
     "use strict";
     angular.module('smartTable.templateUrlList', [])
